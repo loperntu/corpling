@@ -1,92 +1,423 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-  <title>Lecture 02</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Lecture 02">
-  <meta name="author" content="Poirot">
-  <meta name="generator" content="slidify" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/default.css" media="all" >
-  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/phone.css" 
-    media="only screen and (max-device-width: 480px)" >
-  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/slidify.css" >
-  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/gh-buttons.css" >
-  <link rel="stylesheet" href="../../libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+	<title>Corpus Linguistics</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Corpus Linguistics">
+	<meta name="author" content="Shu-Kai Hsieh">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">  <link rel="stylesheet" href = "libraries/widgets/quiz/css/demo.css">
+<link rel="stylesheet" href = "libraries/widgets/interactive/css/aceeditor.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
 
-  
-  <!-- Grab CDN jQuery, fall back to local if offline -->
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
-  <script>window.jQuery || document.write('<script src="../../libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
-  <script data-main="../../libraries/frameworks/io2012/js/slides" 
-    src="../../libraries/frameworks/io2012/js/require-1.0.8.min.js">
-  </script>
-  
-  
-
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
 </head>
-<body style="opacity: 0">
-  <slides class="layout-widescreen">
-    
-    <!-- LOGO SLIDE -->
-      <slide class="nobackground">
-    <article class="flexbox vcenter">
-      <span>
-        <img width='300px' src="../../assets/img/copens.svg">
-      </span>
-    </article>
-  </slide>
-    <slide class="title-slide segue nobackground">
-  <hgroup class="auto-fadein">
-    <h1>Lecture 02</h1>
-    <h2>My Lectures</h2>
-    <p>Poirot<br/></p>
-  </hgroup>
-  <article></article>  
-</slide>
-    
+<body class="list">
+  <header class="caption">
+  	<h1>Corpus Linguistics</h1>
+	</header>
+  <section class="slide cover" id="Cover">
+  <div>
+    <h2>Corpus Linguistics: A General Introduction</h2>
+    <p><img src="http://lopen.linguistics.ntu.edu.tw/static_cwm/img/lope.svg" alt="cover"></p>
 
-    <!-- SLIDES -->
-    <slide class="" id="slide-1" style="background:;">
-  <hgroup>
-    <h2>Introduction</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>This is the second lecture</p>
-
-  </article>
-  <!-- Presenter Notes -->
-  <div class='edit-button button-group'>
-    <a href="http://prose.io/#loperntu/corpling/edit/gh-pages/lectures//index.Rmd" class="button icon edit">Edit</a>
-    <a href='http://loperntu.github.io/corpling' class="button icon home" target="_self">Home</a>  
   </div>
-</slide>
+</section>
+<section class="slide " id="slide-2">
+  <div>
+    <h2>Table of Contents</h2>
+    <ol class = "build incremental">
+<li>Basics</li>
+<li>Accessing and Analzing Methods</li>
+<li>Corpus annotation</li>
+<li>Corpus-based Studies</li>
+<li>[Lab] Using available corpora</li>
+</ol>
 
-    <slide class="backdrop"></slide>
-  </slides>
-  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>What is corpus linguistics</h2>
     <ul>
-      <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Introduction'>
-         1
-      </a>
-    </li>
-  </ul>
-  </div>  <!--[if IE]>
-    <script 
-      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
-    </script>
-    <script>CFInstall.check({mode: 'overlay'});</script>
-  <![endif]-->
+<li>A <strong>corpus</strong> (<em>plural: Corpora</em>) is a systematic collection of authentic, naturally occurring language use in an electronic database for linguistic analysis.</li>
+<li>Corpus linguistics is an  <strong>empirical</strong> method/approach of carrying out linguistic analyses. </li>
+</ul>
+
+<blockquote>
+<p>language researchers do not have to rely on their own or other native speakers’ intuition or even on made-up examples. </p>
+</blockquote>
+
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>Corpus Typology</h2>
+    <ul>
+<li>General/Specific</li>
+<li>[time]: synchronic/diachronic</li>
+<li>Native/Learner/Developmental</li>
+<li>[mode] Written/Spoken/Multimodal</li>
+<li>[demographic]: age group, sex, social class, geographical region</li>
+<li>[medium]: books, emails, blogs,...</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide cover w" id="FitToWidth">
+  <div>
+    <h2>Exercise: A brand-new corpus type?</h2>
+    <p><img src="http://www.lancaster.ac.uk/media/lancaster-university/content-assets/images/news/hero-images/2013/MOOCS-new-web.jpg" alt="width"></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-6">
+  <div>
+    <h2>Three ways to access the corpora</h2>
+    <p>What software is there to perform linguistic analyses on the basis of corpora? and what can these software do?</p>
+
+<ul>
+<li>PC software (WordSmith, Antconc, etc)</li>
+<li>Web-based service (BYU, Word Sketch Engine, etc)</li>
+<li>DIY <code>Programming</code> (Python, R, etc)</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-7">
+  <div>
+    <h2>Corpus Design: Key considerations</h2>
+    <ul>
+<li>Size of Corpus</li>
+<li>Representativeness: () determined by
+
+<ul>
+<li><strong>balance</strong>: i.e., the range of genres in the corpus, and</li>
+<li><strong>sampling procedure</strong>: i.e., how text chunks for each genre are selected.</li>
+</ul></li>
+<li>Question of Nativity</li>
+<li>Identification of Target Users</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-8">
+  <div>
+    <h2>Representativeness</h2>
+    <blockquote>
+<p>How can we know that the sample we are using is representative of the language or language variety?</p>
+
+<p>Are there any objective ways to balance a corpus or to measure its representativeness?</p>
+</blockquote>
+
+  </div>
+</section>
+<section class="slide " id="slide-9">
+  <div>
+    <h2>What can corpus tools offer?</h2>
+    <ul>
+<li>Concordance</li>
+<li>Frequency list</li>
+<li>Collocations (and colligations)</li>
+<li>Keywords</li>
+<li>ngram</li>
+<li>Visualization</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-10">
+  <div>
+    <h2>Concordance</h2>
+    <ul>
+<li>Also referred to as <em>key word in context (KWIC)</em> </li>
+<li>A list of all of the occurrences of a particular search term in a corpus, 
+presented within the context in which they occur – usually a few words to the left and right of the search term. </li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-11">
+  <div>
+    <h2>Concordance</h2>
+    <ul>
+<li>A concordancer is the software tool that searches through a corpus for each instance of a given word, phrase or other element and the immediate context in which each instance occurs, to create a concordance.</li>
+</ul>
+
+<p><img src="assets/img/now.png" alt="Drawing" style="width: 400px;"/></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-12">
+  <div>
+    <h2>Collocations</h2>
+    <ul>
+<li>collocation is the phenomenon surrounding the fact that certain words are more likely to occur in combination with other words in certain contexts.</li>
+<li>A collocate is therefore a word which occurs within the neighbourhood of another word. </li>
+<li><strong>Grammatical collocates</strong> (<code>Word Sketch Engine</code>)</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-13">
+  <div>
+    <h2>Colligation</h2>
+    <ul>
+<li><strong>Colligation</strong> is a form of collocation which involves relationships at the grammatical rather than the lexical level. For example, nouns tend to colligate with adjectives while verbs tend to colligate with adverbs. We can also apply colligation to phrases or words. For example, a word like <em>window</em> tends to colligate with prepositions.</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-14">
+  <div>
+    <h2>Keywords</h2>
+    <ul>
+<li>A word which appears in a text or corpus statistically significantly more frequently than would be expected by chance when compared to a corpus which is larger or of equal size.</li>
+<li>Usually log-likelihood or chi-squared tests are used to compare two word lists in order to derive keywords.</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-15">
+  <div>
+    <h2>N-gram</h2>
+    <ul>
+<li>A sequence of n letters from a given string after removing any spaces. For example, when n=3 the n-grams that can be generated from the phrase ‘how are you’ are ‘how’, ‘owa’, ‘war’, ‘are’, ‘rey’ and so on.</li>
+<li>Google corpus of digitized texts containing about 6% (over 8
+million books) of all books ever printed. The extracted <strong>Google book ngrams</strong> are freely available now.</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-16">
+  <div>
+    <h2>Google Books for <a href="http://www.culturomics.org/">Culturomics</a></h2>
+    <blockquote>
+<p>Analysis of this corpus enables us to investigate cultural trends quantitatively. We survey the vast terrain of &#39;culturomics,&#39; focusing on linguistic and cultural phenomena that were reflected in the English language between 1800 and 2000. We show how this approach can provide insights about fields as diverse as <strong>lexicography</strong>, the <strong>evolution of grammar</strong>, collective memory, the adoption of technology, the pursuit of fame, censorship, and historical epidemiology.(<em>Science, 331(6014): 176–82</em>, 2011).</p>
+</blockquote>
+
+  </div>
+</section>
+<section class="slide " id="slide-17">
+  <div>
+    <h2>Google book ngram (semi-) corpus</h2>
+    <p><img src="assets/img/gngram.png" alt="Drawing" style="width: 500px;"/></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-18">
+  <div>
+    <h2>Google book ngram (semi-) corpus</h2>
+    <p><img src="assets/img/syn1.png" alt="Drawing" style="width: 600px;"/></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-19">
+  <div>
+    <h2><a href="https://books.google.com/ngrams/">Exercise</a>:</h2>
+    <h2>中國人愛什麼?</h2>
+
+  </div>
+</section>
+<section class="slide " id="slide-20">
+  <div>
+    <h2>Corpus Visualization</h2>
+    <ul>
+<li>dynamic chart (for language changes and sociallinguistic varieties)</li>
+<li>simulation </li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-21">
+  <div>
+    <h2>Linguistic Motion Chart</h2>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/6LUjgHPhxRw" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+</section>
+<section class="slide " id="slide-22">
+  <div>
+    <h2>Data Science Analytics (makes advances like never before)</h2>
+     
+<div class='row-fluid'>
+  <div class='span5'>
+    <form id="knitForm22" data-cell="22">
+      <pre><code class="r">require(googleVis)
+</code></pre>
+
+<pre><code>## Loading required package: googleVis
+## 
+## Welcome to googleVis version 0.5.10
+## 
+## Please read the Google API Terms of Use
+## before you start using the package:
+## https://developers.google.com/terms/
+## 
+## Note, the plot method of googleVis will by default use
+## the standard browser to display its output.
+## 
+## See the googleVis package vignettes for more details,
+## or visit http://github.com/mages/googleVis.
+## 
+## To suppress this message use:
+## suppressPackageStartupMessages(library(googleVis))
+</code></pre>
+
+<pre><code class="r">load(&quot;mot/mot.RData&quot;)
+#head(convdata)
+#head(compdata)
+Modal &lt;- gvisMotionChart(convdata, 
+                         idvar=&quot;VERB&quot;, 
+                         timeva=&quot;DECADE&quot;) 
+plot(Modal) 
+</code></pre>
+
+      <div id='aceeditor22' style="height:px;"></div>
+      <div class='interactive btn-toolbar pull-left'>
+        <div class='btn-group'>
+          <a class='btn btn-small action-button' id='runCode22' data-action='runCode'
+            data-cell='22' rel='tooltip' data-title='Run Code'>
+            <i class='icon-play'></i>
+          </a>
+          <a class='btn btn-small iBtn' id='testCode22' data-action='testCode'
+             data-cell='22' rel='tooltip' data-title='Test Code'>
+            <i class='icon-check'></i>
+          </a>
+          <a class='btn btn-small iBtn' id='clearResult22' data-action='clearResult'
+             data-cell='22' rel='tooltip' data-title='Clear Output'>
+            <i class="icon-remove"></i>
+          </a>
+          <a class='btn  btn-small iBtn' id='getHint22' rel='tooltip' 
+            data-title="Get Hint" data-action='getHint'
+            data-cell='22' data-hint="">
+            <i class="icon-bookmark"></i>
+          </a>
+        </div>
+      </div>    </form>
+  </div>
+  <div class='span7'>
+    <iframe id="knitResult22" class='shiny-html-output'></iframe>
+  </div>
+</div>
+  </div>
+</section>
+<section class="slide " id="slide-23">
+  <div>
+    <h2>Build Your Own Corpus</h2>
+    <ul>
+<li>decontextualization issue: we do not know how the corpus was built but uses corpus statistics, e.g. frequencies.</li>
+<li>we have our own <code>wish list</code> (?)</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-24">
+  <div>
+    <h2>Corpus Statistics: Counting</h2>
+    <ul>
+<li>token: sequences of letters separated by spaces or punctuation.</li>
+<li>type: uniq tokens, counting each repeated item once.</li>
+<li>Hapax legomena: the word that occur only once.</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-25">
+  <div>
+    <h2>Corpus Statistics: Unit</h2>
+    <ul>
+<li>Lemma: base word form, the canonical form of an inflected word; usually, for verbs: the infinitive or the present tense, first person singular (run-run, runs, ran, running), and for nouns: the nominative singular. refers to the particular form that is chosen by convention to represent the lexeme.</li>
+<li>Lexeme: refers to the set of all the forms that have the same meaning</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-26">
+  <div>
+    <h2>New Methodological Issues [1]: Size</h2>
+    <p>Do we really need (more than) 500 billion words for linguistics?</p>
+
+<ul>
+<li>e.g., <a href="http://corpus.byu.edu/coha/">COHA:THE CORPUS OF HISTORICAL AMERICAN ENGLISH</a> vs. [Google Book ngram] </li>
+</ul>
+
+<p>Are there any <strong>hard rules</strong> regarding how large a corpus ought to be? </p>
+
+  </div>
+</section>
+<section class="slide " id="slide-27">
+  <div>
+    <h2>New Methodological Issues [1]: Size</h2>
+    <blockquote>
+<p>For the study of prosody (i.e. the rhythm, stress and intonation of speech), a corpus of 100,000 words will usually be big enough to make generalizations; for the analysis of verb-form morphology (i.e. the use of endings such as -ed, -ing and -s to express verb tenses) would require half a million words. (Kennedy (1998: 68)), while Biber (1993) suggests that a million words would be enough for grammatical studies.</p>
+</blockquote>
+
+<p>Depending on you research topic!</p>
+
+  </div>
+</section>
+<section class="slide " id="slide-28">
+  <div>
+    <h2>Homework (20150925)</h2>
+    <ul>
+<li>(60%) Write a short critique essay on (at least one of) the existing corpus systems/tools.</li>
+<li>(40%) Explain your idea in using Google book ngram as corpus.</li>
+</ul>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	
+	<script src="shared/shiny.js" type="text/javascript"></script>
+	<script src="shared/slider/js/jquery.slider.min.js"></script>
+	<script src="shared/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="shared/slider/css/jquery.slider.min.css"></link>
+	
+	<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	    tex2jax: {
+	      inlineMath: [['$','$'], ['\\(','\\)']],
+	      processEscapes: true
+	    }
+	  });
+	</script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script> -->
+	<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
 </body>
-  <!-- Load Javascripts for Widgets -->
-  
-  <!-- LOAD HIGHLIGHTER JS FILES -->
-  <script src="../../libraries/highlighters/highlight.js/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
-   
-  </html>
+</html>

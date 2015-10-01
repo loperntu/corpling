@@ -1,13 +1,13 @@
 ---
-title       : My Lectures
-author      : Ramnath Vaidyanathan
+title       : Corpus Linguistics 2015-16
+author      : Shu-Kai Hsieh
 framework   : minimal
 hitheme     : solarized_light
 mode        : selfcontained
-github      : {user: slidify, repo: lectureSite, branch: gh-pages}
+github      : {user: loperntu, repo: corpling, branch: gh-pages}
 ---
 
-# Course Title 
+# Corpus Linguistics
 
 <a href="http://prose.io/#{{site.github.user}}/{{site.github.repo}}/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a>
 

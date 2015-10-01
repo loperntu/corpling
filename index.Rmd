@@ -1,0 +1,79 @@
+---
+title       : My Lectures
+author      : Ramnath Vaidyanathan
+framework   : minimal
+hitheme     : solarized_light
+mode        : selfcontained
+github      : {user: slidify, repo: lectureSite, branch: gh-pages}
+---
+
+# Course Title 
+
+<a href="http://prose.io/#{{site.github.user}}/{{site.github.repo}}/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a>
+
+```{r setup, cache = F, echo = F}
+knitr::knit_hooks$set(document = function(doc){
+  gsub('`` ', '```', doc)
+})
+```
+
+
+This is a template for creating a quick website for a course using Slidify. Once you have configured `site.yml`, edited your `Rmd` source files, all you need to do is to run `blogify(".")` from the root. Slidify will automatically detect all the `Rmd` files, slidify them, and create all lecture slides along with the index page. 
+
+This sample course website, was actually generated the exact same way!
+
+## Structure
+
+The first thing to understand is the folder structure. The `lectures` folder holds your lecture slides, one subfolder per lecture. 
+
+```
+assets      -> put custom img/js/css/layout assets
+lectures    -> folder containing lectures
+  01
+  02
+  03
+libraries   -> frameworks, highlighters and widgets
+index.Rmd   -> Rmd source for home page
+site.yml    -> Site related configuration
+```
+
+## Configuration
+
+The file `site.yml` contains properties that need to be customized. A property named `foo` in `site.yml` can be accessed in any of the layout files as `site.foo`.
+
+## Navigation
+
+It is easy to automatically add a list of lectures by adding the following code chunk to your `index.Rmd`. It assumes that you are using the same folder structure and naming scheme. If you use a different scheme, make sure that you tweak the code in this code chunk.
+
+    `` {r echo = F, results = 'asis'}
+    lectures = dir('lectures', full = TRUE)
+    links = paste0(seq_along(lectures), ". ", 
+      "[Lecture ", basename(lectures), "]", "(", lectures, "/index.html)"
+    )
+    writeLines(links)
+    ```
+
+This is the output from running the above code chunk.
+
+```{r echo = F, results = 'asis'}
+lectures = dir('lectures', full = TRUE)
+links = paste0(seq_along(lectures), ". ", 
+  "[Lecture ", basename(lectures), "]", "(", lectures, "/index.html)"
+)
+writeLines(links)
+```
+
+## Features
+
+One nice feature you will notice is that all lecture slides automatically get an `edit` button, that when clicked opens up the `Rmd` source in `prose.io`. This makes it easy for people to correct typos, and contribute to your lecture slides.
+
+<a href='lectures/01/#3'>
+   <img style='border: 1px solid;' width=100% src=http://www.clipular.com/c?14735047=rpmipgzz3PAoKUVW7jQ4hE30iKk&f=.png></img>
+</a>
+
+
+
+
+
+
+

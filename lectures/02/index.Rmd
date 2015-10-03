@@ -1,6 +1,6 @@
 ---
 title       : Corpus Linguistics
-subtitle    : week 2 
+subtitle    : week 3 
 author      : Shu-Kai Hsieh
 job         : GIL, National Taiwan University
 framework   : shower        # {io2012, html5slides, shower, dzslides, ...}

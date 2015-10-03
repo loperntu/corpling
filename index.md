@@ -46,8 +46,8 @@ Week | Date   | Topic         | Lab
 12 	 | 12/04	| Basic corpus statistics (I)    | WAC.py
 13 	 | 12/11	| Basic corpus statistics (II)*  | WAC.py
 14 	 | 12/18	| Corpus data and Brain data     | WAC.py
-15 	 | 12/25	| (Guest lecture)   					   | 
-16 	 | 01/01	| Methodological issues in corpus linguistics: Evaluation and comparison                               					 | WAC.py
+15 	 | 12/25	| Methodological issues in corpus linguistics: Evaluation and comparison 					   | WAC.py
+16 	 | 01/01	| ~~National Holiday~~ (cancelled)                             					 | 
 17 	 | 01/08	| Class project workshop			  | WAC.py
 18 	 | 01/14	| **term paper due**            | WAC.py
 
@@ -82,7 +82,8 @@ and <http://loperntu.github.io/corpling>
 - (week 12) Quantitative methods in corpus linguistics. *Corpus Linguistics: An International Handbook*. volumn 2, Walter de Gruyter. 
 - (week 13) [Baayen (2009)] Corpus linguistics in morphology: Morphological
 productivity. *Corpus Linguistics: An International Handbook*. volumn 2, Walter de Gruyter.
-- (week 16) [Stefan Gries (2010).] *Methodological Skills in Corpus Linguistics: A Polemic and Some Pointers toward Quantitative Methods*.
+- (week 14) Choose yourself !
+- (week 15) [Stefan Gries (2010).] *Methodological Skills in Corpus Linguistics: A Polemic and Some Pointers toward Quantitative Methods*.
 
 
 

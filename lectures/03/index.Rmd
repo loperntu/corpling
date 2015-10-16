@@ -71,6 +71,12 @@ Let's walk through an example by
 
 
 ---
+## Steps 
+
+- [Data](https://www.dropbox.com/sh/avlsbmbk6800hg3/AABRAl5sZT9iKCd6V09X1QXCa?dl=0)
+
+
+---
 ## Change over time and lock words
 
 - Coding yourself leads you to interesting research, e.g., <http://viveksck.github.io/langchangetrack/>

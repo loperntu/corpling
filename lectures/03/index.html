@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Corpus Linguistics</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Corpus Linguistics">
+	<meta name="author" content="Shu-Kai Hsieh">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">  <link rel="stylesheet" href = "libraries/widgets/quiz/css/demo.css">
+<link rel="stylesheet" href = "libraries/widgets/interactive/css/aceeditor.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
+
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
+</head>
+<body class="list">
+  <header class="caption">
+  	<h1>Corpus Linguistics</h1>
+	</header>
+  <section class="slide cover" id="Cover">
+  <div>
+    <h2>Corpus Linguistics</h2>
+    <p><img src="http://lopen.linguistics.ntu.edu.tw/static_cwm/img/lope.svg" alt="cover"></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-2">
+  <div>
+    <h2>Table of Contents</h2>
+    <ol class = "build incremental">
+<li>Corpus Query Tools</li>
+<li><code>Word Sketch Engine</code>: Basics and Advanced Usage</li>
+</ol>
+
+  </div>
+</section>
+<section class="slide cover w" id="FitToWidth">
+  <div>
+    <h2>工欲善其事，必先利其器 (孔子) &quot;Sharpen you edge to succeed&quot;</h2>
+    
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>Recap: three ways to access the corpora</h2>
+    <ul>
+<li>PC software (WordSmith, Antconc, etc)</li>
+<li>Web-based service (BYU, Word Sketch Engine, etc)</li>
+<li>Programming (Python, R, etc)</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-5">
+  <div>
+    <h2>PC-based Corpus Query Tools</h2>
+    <ul>
+<li><a href="http://www.laurenceanthony.net/software.html">Ant* Family</a>
+
+<ul>
+<li>AntConc: corpus analysis toolkit.</li>
+<li>AntPConc: parallel corpus analysis toolkit.</li>
+<li class=''>. . . </li>
+</ul></li>
+<li>Limits: work well only with small data; word segmentation (<code>SegmentAnt</code>) is just incredible ...</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-6">
+  <div>
+    <h2>A random example</h2>
+    <p><img src="assets/img/seg.png" alt="Drawing" style="width: 800px;"/></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-7">
+  <div>
+    <h2>Web-based service: Word Sketch Engine</h2>
+    <p><a href="https://www.futurelearn.com/courses/corpus-linguistics/3/steps/36639">https://www.futurelearn.com/courses/corpus-linguistics/3/steps/36639</a></p>
+
+<p>Let&#39;s walk through an example by</p>
+
+<ul>
+<li>Building a corpus of US Presidents Inaugural Address.</li>
+<li>Explore the provided functions.</li>
+<li>Try the advanced query methods (e.g., <strong>CQL</strong>).</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-8">
+  <div>
+    <h2>Change over time and lock words</h2>
+    <ul>
+<li>Coding yourself leads you to interesting research, e.g., <a href="http://viveksck.github.io/langchangetrack/">http://viveksck.github.io/langchangetrack/</a></li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-9">
+  <div>
+    <h2>Homework (20151016)</h2>
+    <ul>
+<li>Form a hypothesis regarding the Presidents linguistic behaviours, conduct a corpus-based survey to <em>support</em> that. </li>
+<li>Watch <strong>FutureLearn</strong> (Week3) and write a reflective note.</li>
+</ul>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	
+	<script src="shared/shiny.js" type="text/javascript"></script>
+	<script src="shared/slider/js/jquery.slider.min.js"></script>
+	<script src="shared/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="shared/slider/css/jquery.slider.min.css"></link>
+	
+	<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	    tex2jax: {
+	      inlineMath: [['$','$'], ['\\(','\\)']],
+	      processEscapes: true
+	    }
+	  });
+	</script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script> -->
+	<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>

@@ -67,9 +67,13 @@ and <http://loperntu.github.io/corpling>
 ```
 ## Lecture scripts
 
-1. [Lecture 01](lectures/01/index.html)
-2. [Lecture 02](lectures/02/index.html)
-3. [Lecture 03](lectures/03/index.html)
+
+
+- [Lecture 01](lectures/01/index.html)
+- [Lecture 02](lectures/02/index.html)
+- [Lecture 03](lectures/03/index.html)
+- [Lecture 04](lectures/04/index.html)
+
 
 ## Class reader
 

@@ -37,10 +37,10 @@ Week | Date   | Topic         | Lab
 3    | 10/02  | Corpus-based analytical tools    | `Antconc` Family
 4    | 10/09  | ~~National Holiday~~ (cancelled) | 
 5    | 10/16	| Corpus-based analytical tools | `Word Sketch Engine`
-6    | 10/23	| Corpus annotation (I) | Annotation exercise 
+6    | 10/23	| Corpus annotation (I) | `Word Sketch Engine` 
 7    | 10/30  | Corpus annotation (II)         | Annotation exercise 
-8    | 11/06	| Corpus-based analysis          | Beginning Python
-9    | 11/13	| Corpus data collection         | WAC.py
+8    | 11/06	| Corpus-based analysis          | Annotation exercise
+9    | 11/13	| Corpus data collection         | Beginning Python
 10   | 11/20	| Corpus data preprocessing      | WAC.py
 11 	 | 11/27	| Corpus data preprocessing      | WAC.py
 12 	 | 12/04	| Basic corpus statistics (I)    | WAC.py
@@ -73,6 +73,7 @@ and <http://loperntu.github.io/corpling>
 
 ## Class reader
 
+[presentation order](https://docs.google.com/spreadsheets/d/1Fi-lC2nVhAebBH0m8Kx-hTNCA8yGUkhodF3yI8envPY/edit#gid=0)
 
 - (week 6) [O'donnell et al (2013).] Exploring text-initial words, clusters and concgrams in a newspaper corpus. *Corpus Linguistics and Linguistic Theory*. Volume 8, Issue 1, Pages 73–101, (open access). 
 - (week 7) [Lehmberg and Wörner (2009).] Annotation standards. *Corpus Linguistics: An International Handbook*. volumn 1, Walter de Gruyter. 

@@ -73,6 +73,7 @@ and <http://loperntu.github.io/corpling>
 - [Lecture 02](lectures/02/index.html)
 - [Lecture 03](lectures/03/index.html)
 - [Lecture 04](lectures/04/index.html)
+- [lecture 05](lectures/05/index.html)
 
 
 ## Class reader

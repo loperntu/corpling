@@ -40,8 +40,8 @@ Week | Date   | Topic         | Lab
 6    | 10/23	| Corpus annotation (I) | `Word Sketch Engine` 
 7    | 10/30  | Corpus annotation (II)         | Annotation exercise 
 8    | 11/06	| Corpus-based analysis          | Annotation exercise
-9    | 11/13	| Corpus data collection         | Beginning Python
-10   | 11/20	| Corpus data preprocessing      | WAC.py
+9    | 11/13	| Corpus data collection         | Corpus Query Languages
+10   | 11/20	| Corpus data preprocessing      | Corpus Query Languages
 11 	 | 11/27	| Corpus data preprocessing      | WAC.py
 12 	 | 12/04	| Basic corpus statistics (I)    | WAC.py
 13 	 | 12/11	| Basic corpus statistics (II)*  | WAC.py

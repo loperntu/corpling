@@ -1,6 +1,6 @@
 ---
 title       : Corpus Linguistics
-subtitle    : Corpus Annotation [1]
+subtitle    : Corpus Query and Annotation
 author      : Shu-Kai Hsieh
 job         : GIL, National Taiwan University
 framework   : shower        # {io2012, html5slides, shower, dzslides, ...}
@@ -58,13 +58,13 @@ knit        : slidify::knit2slides
 
 - First look at [Netspeak](http://www.netspeak.org/)
 - `Simple Query Syntax` in [BNCweb](http://bncweb.lancs.ac.uk)
-- `Corpus Query Language (CQL)` in Word Sketch Engine
+- `Corpus Query Language (CQL)` in Word Sketch Engine [tutorial](https://www.sketchengine.co.uk/xdocumentation/wiki/SkE/CorpusQuerying#Queryexamples)
 
 
 ---
 ## Exercise
 
-
+see `gitbook`
 
 ---
 ## Outline
